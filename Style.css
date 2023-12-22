@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -108,3 +109,36 @@ body {
   height: 35px;
   flex-shrink: 0;
 }
+@media screen and (max-width:955px) 
+{
+  
+  .list ul li a{
+    display: none;
+  }
+  
+  .button{
+    font-size: 10px;
+    width: 10px;
+  }
+  .header .navbar{
+    display: inline;
+  }
+
+
+}
+@media screen and (max-width:500px) 
+{
+  
+ 
+  
+  .button{
+    font-size: 10px;
+    width: 10px;
+  }
+  .header .navbar{
+    display: inline;
+  }
+
+
+}
+
