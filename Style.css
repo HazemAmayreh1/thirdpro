@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contener {
+  width: calc(100% - 160px);
+  margin: auto;
+}
+.header {
+  background-color: #fff;
+  position: sticky;
+  z-index: 9;
+  top: 0;
+  box-shadow: 0px 1.647px 8.237px 0px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  padding: 0 30px;
+  background-color: #FFFFFF;
+}
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.list ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+.list ul {
+  list-style-type: none;
+  gap: 26px;
+}
+.list ul li a {
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+}
+.list a:hover {
+  padding: 14px 24px;
+  border-radius: 8px;
+  background: var(--White-95, #F1F1F3);
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 20px;
+}
+.button a:hover {
+  background-color: #eee;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 150;
+}
+
+.button a {
+  font-family: Inter;
+  color: var(--Absolute-White, #FFF);
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+#login{
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+#register {
+  background: var(--Orange-50, #FF9500);
+  color: white;
+}
+.icon {
+  gap: 5px;
+}
+.icon svg {
+  background-color: #FF9500;
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+}
