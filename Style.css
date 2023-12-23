@@ -24,6 +24,7 @@ body {
 .navbar {
   display: flex;
   flex-wrap: wrap;
+  gap: 40px;
   justify-content:space-between;
   padding: 0 30px;
   background-color: #FFFFFF;
@@ -107,30 +108,166 @@ body {
   background-color: #FF9500;
   width: 35px;
   height: 35px;
-  flex-shrink: 0;
 }
+.showburger{
+  margin: auto;
+  display: none;
+}
+
+
+.hero .head{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0px;
+  gap: 40px;
+  background-color: #FFFFFF;
+
+}
+.hero .hero-info{
+  display: flex;
+  padding: 14px 30px 14px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 11px;
+  border: 1px solid var(--White-95, #F1F1F3);
+  background: var(--White-99, #FCFCFD);
+
+}
+.hero .hero-descraption{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+}
+.hero .hero-buttons{
+  display: flex;
+  padding: 18px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.hero .hero-text span{
+  color: var(--Orange-50, #FF9500);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; 
+}
+.hero .hero-text h1{
+  color: var(--Grey-10, #1A1A1A);
+  font-family: Be Vietnam Pro;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.hero .hero-descraption span{
+  color: var(--Grey-15, #262626);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; 
+}
+.hero .hero-descraption p{
+  color: var(--Grey-15, #262626);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+}
+.hero .hero-buttons  a {
+  color: var(--Absolute-White, #FFF);
+  text-align: center;
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  text-decoration: none;
+}
+.hero .hero-buttons  :first-of-type {
+border-radius: 8px;
+background: var(--Orange-50, #FF9500);
+padding: 18px 24px;
+justify-content: center;
+color: white;
+
+}
+.hero .hero-buttons  :last-of-type {
+  display: flex;
+  padding: 18px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--White-95, #F1F1F3);
+  background: var(--Absolute-White, #FFF);
+  color: black;
+  
+}
+.hero .theams{
+  position: absolute;
+}
+.allimg{
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 12px;
+  border: 1px solid var(--White-95, #F1F1F3);
+  background: var(--White-99, #FCFCFD);
+  gap: 40px;
+  overflow-x: auto;
+}
+.allimg img{
+  padding: 20px 40px;
+  width: calc(100% - 80px) /3;
+
+}
+
+
 @media screen and (max-width:955px) 
 {
   
   .list ul li a{
     display: none;
   }
-  
-  .button{
-    font-size: 10px;
-    width: 10px;
+  .showburger{
+    display: block;
+    width: 100%;
   }
   .header .navbar{
-    display: inline;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+   gap: 15px;
   }
+  .header .list {
+    display: inline;
+}
+  .allimg img{
+  padding: 20px 40px;
+  width: calc(100% - 80px) /3;
+
+}
 
 
 }
 @media screen and (max-width:500px) 
 {
-  
- 
-  
+  .container {
+    width: calc(100% - 16px);
+}
   .button{
     font-size: 10px;
     width: 10px;
@@ -138,7 +275,29 @@ body {
   .header .navbar{
     display: inline;
   }
+  .hero .head { 
+    padding: 50px 0px;
+     gap: 20px;
+  }
 
-
+  .first-hero .theams{
+    height: 15px;
+    width: 15px;
+  }
+  .hero-text span h1{
+    font-size: 15px;
+    font-style: normal;    
+  }
+  .allimg img{
+    padding: 20px 40px;
+    width: calc(100% - 80px) /3;
+    overflow: auto;
+  
+  }
+  
+  
 }
+
+
+
 
