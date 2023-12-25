@@ -419,7 +419,299 @@ body {
   line-height: 150%; 
   text-decoration: none;
 }
+.testimonials{
+  padding: 40px;
+}
 
+.testimonials .testimonial {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  
+}
+
+.testimonials .testimonial .employee {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+  padding: 40px;
+  border-radius: 15px;
+  border: 2px solid #F1F1F3;
+  background: #FFF;
+  gap: 20px;
+}
+.testimonials .head h1{
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; 
+}
+.employee span {
+  color: #4C4C4D;
+  font-weight: 400;
+}
+
+.employee .information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.employee .information span {
+  padding: 0.625rem 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #F1F1F3;
+  background: #FFF;
+}
+
+.employee .information .one1 {
+  display: flex;
+  gap: 0.9375rem;
+  align-items: center;
+}
+
+.employee .information .one1 span {
+  height: fit-content;
+}
+
+.pricing .title .last span:last-of-type {
+  display: flex;
+  border-radius: 0.5rem;
+  background: #FFF;
+  padding: 0.75rem;
+  margin: auto;
+}
+
+.pricing .title .last span a {
+  border: 0.1rem solid #FFF;
+  width: fit-content;
+  padding: 0.857rem 1.875rem;
+}
+.pricing .head h1 { 
+  color: var(--Grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; 
+}
+.pricing .info  span a:first-of-type {
+  background-color: #FF9500;
+  padding: 14px 30px;
+  color: #fcfcfd;
+  gap: 10px;
+}
+.pricing .info  span a:last-of-type {
+  padding: 14px 30px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pricing .pric {
+  display: flex;
+  gap: 1.875rem;
+  flex-wrap: wrap;
+  padding: 5rem;
+  border-radius: 0.75rem;
+  background: #FFF;
+
+}
+
+.pricing .pric .contant {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 1.875rem) / 2);
+  padding: 3.125rem 1.875rem;
+  border-radius: 0.75rem;
+  border: 0.1rem solid #F1F1F3;
+  text-align: center;
+  gap: 3.125rem;
+}
+
+.pricing .pric .contant .one {
+  background-color: rebeccapurple;
+  padding: 0.75rem 1.375rem;
+  border-radius: 0.375rem;
+  border: 0.1rem solid #FFEACC;
+  background-color: #FFF9F0;
+  font-size: 1.375rem;
+  font-weight: 500;
+}
+
+.pricing .pric .contant .two {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #262626;
+}
+
+.pricing .pric .contant .two::after {
+  content: "/month";
+  font-size: 1.25rem;
+  color: #4C4C4D;
+  font-weight: 500;
+}
+
+.pricing .pric .contant .list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.875rem;
+  padding: 2.5rem;
+  border-radius: 0.875rem;
+  border: 0.1rem solid #F1F1F3;
+  background: #FFF;
+}
+
+.pricing .pric .contant .list .head {
+  color: #262626;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.pricing .pric .contant .list .lc {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  color: #4C4C4D;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.pricing .pric .contant .list .lc img {
+  padding: 0.375rem;
+  border-radius: 0.375rem;
+}
+
+.pricing .pric .contant .list .lc .active {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #F1F1F3;
+  padding: 0.875rem;
+}
+
+.pricing .pric .contant .list .lc .active img {
+  background-color: #FFF4E5;
+}
+
+.pricing .pric .contant .list .lc .inactive {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #F1F1F3;
+  padding: 0.875rem;
+}
+
+.pricing .pric .contant .list .lc .inactive img {
+  border: 0.1rem solid #F1F1F3;
+}
+
+.pricing .pric .contant .last {
+  border-radius: 0.5rem;
+  background-color: #FF9500;
+  padding: 1.25rem 1.5rem;
+  color: #FFF;
+}
+
+footer {
+  background-color: #FFF;
+  margin-top: 7rem;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  padding: 6.25rem 10.125rem 1.875rem;
+  gap: 6.25rem;
+}
+
+footer .had {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+footer .had .first {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+footer .had nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer .had .first ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+footer .had .first li {
+  display: flex;
+  gap: 0.375rem;
+  color: #262626;
+}
+
+footer .had .first .logo {
+  padding: 0.48rem;
+  border-radius: 0.5rem;
+  background-color: #FF9500;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+footer .had .last {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.857rem;
+  width: calc(100% / 2);
+}
+
+footer .had .last nav {
+  gap: 0.875rem;
+}
+
+footer .had .last nav h4 {
+  font-size: 1.25rem;
+  color: #262626;
+}
+
+footer .had .last ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #59595A;
+}
+
+footer .had .last .final ul {
+  flex-direction: row;
+  gap: 0.875rem;
+  align-content: center;
+}
+
+footer .had .last .final img {
+  border-radius: 0.5rem;
+  border: 0.1rem solid #F1F1F3;
+  background: #F7F7F8;
+  padding: 0.875rem;
+}
+
+footer .fot {
+  display: flex;
+  justify-content: center;
+  color: #656567;
+}
 
 
 
